@@ -6,8 +6,9 @@ This image contains web application to host avro schema repository. Code availab
 ##How to use this image?
 By default, schemas are store in memory. Use the following options based on the requirement.
 
-set —env schema_backend= filesystem , to store schemas on disk
-substitute <path> with the actual path to store the schemas
+1. set —env schema_backend= filesystem , to store schemas on disk.
+2. substitute <path> with the actual path to store the schemas
+
 ```
 docker run  -d --env schema_backend=file-system -p 80:2876 -v <path>:/mnt/repository logbase/schema-repo
 ```
