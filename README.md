@@ -1,4 +1,4 @@
-#spark-ipython-scipy
+#avro-schema-repo
 
 ##What is this image?
 This image contains web application to host avro schema repository. Code available in github at schema-repo/schema-repo
